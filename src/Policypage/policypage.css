@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainpage{
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+#firstblock{
+    width: 130vh;
+    height: auto;
+    /* border: 2px solid black; */
+    margin: 20px 0px 0px 20px;
+}
+
+#coveramount{
+    height: 80px;
+    width: 98%;
+    border: 2px solid rgb(255,168,0);
+    border-left: 15px solid rgb(255,168,0);
+    border-radius: 10px 9px 40px 35px;
+    margin: 10px 0px 0px 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* For Logo, Cover Title and Cover Amount */
+#logo{
+    
+}
+#logo>img{
+    width: 80px;
+    margin: 0px 0px 0px 0px;
+}
+#coveramounttitle{
+    width: 300px;
+    height: 100%;
+    border-left: 2px solid rgb(255,168,0);
+    border-bottom-left-radius: 15px;
+}
+#coveramounttitle>h4{
+    margin: 20px 0px 0px 10px;
+    font-size: 14px;
+}
+#coveramounttitledetails{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#coveramounttitledetails>h4{
+    font-size: 13px;
+}
+#first{
+    color: rgb(99,181,122);
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 10px 0px 0px 10px;
+}
+#second{
+    color: rgb(57,136,195);
+    text-decoration: underline;
+    margin: 10px 0px 0px 10px;
+    cursor: pointer;
+
+}
+
+#coveramountvalue>label{
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(57,136,195);
+}
+#coveramountvalue>select{
+    height: 35px;
+    width: 210px;
+    font-weight: bold;
+}
+
+
+/* For Policy Period */
+#policyperiod{
+    width: 98%;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50px 0px 50px 0px;
+    margin: 150px 0px 0px 9px;
+    padding: 30px;
+}
+#policyperiod>h4{
+    color: rgb(57,136,195);
+}
+#periodoption{
+    width: 84vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px 0px 0px;
+}
+#radio1{
+    width: 27vh;
+    height: 55px;
+    border: 1px solid black;
+    padding: 7px;
+}
+#radio1>label>input{
+    /* appearance: none; */
+    /* width: 12px; */
+    /* height: 12px; */
+    border: 1px solid black;
+    margin: 0px 8px 0px 0px;
+}
+#radio1>label{
+    cursor: pointer;
+}
+#radio2{
+    width: 27vh;
+    height: 55px;
+    border: 1px solid black;
+    padding: 7px;
+}
+#radio2>label>input{
+    /* appearance: none; */
+    /* width: 12px; */
+    /* height: 12px; */
+    border: 1px solid black;
+    margin: 0px 8px 0px 0px;
+}
+#radio2>label{
+    cursor: pointer;
+}
+#radio2>p{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253,211,131);
+    margin: 5px 0px 0px 90.1px;
+    padding: 0px 0px 0px 7px;
+    font-size: 13px;
+    font-weight: bold;
+}
+#radio3{
+    width: 27vh;
+    height: 55px;
+    border: 1px solid black;
+    padding: 7px;
+}
+#radio3>label>input{
+    /* appearance: none; */
+    /* width: 12px; */
+    /* height: 12px; */
+    border: 1px solid black;
+    margin: 0px 8px 0px 0px;
+}
+#radio3>label{
+    cursor: pointer;
+}
+#radio3>p{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253,211,131);
+    margin: 5px 0px 0px 90.1px;
+    padding: 0px 0px 0px 7px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+/* For Riders Section */
+#riders{
+    width: 98%;
+    height: auto;
+    border: 2px solid black;
+    margin: 50px 0px 0px 8px;
+    padding: 30px;
+}
+#rider1{
+    width: 100%;
+    height: 15vh;
+    border: 2px solid rgb(188, 188, 188);
+    border-radius: 8px;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#rider1>button{
+    width: 70px;
+    height: 40px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(57,136,195);
+    border-color: rgb(57,136,195);
+    cursor: pointer;
+}
+#rider1details>h4{
+    color: rgb(57,136,195);
+}
+#rider1details>p{
+    width: 350px;
+    font-size: 15px;
+}
+
+#rider2{
+    width: 100%;
+    height: 15vh;
+    border: 2px solid rgb(188, 188, 188);
+    border-radius: 8px;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#rider2>button{
+    width: 70px;
+    height: 40px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(57,136,195);
+    border-color: rgb(57,136,195);
+    cursor: pointer;
+    margin: 0px 5px 0px 0px;
+}
+#rider2details>h4{
+    color: rgb(57,136,195);
+}
+#rider2details>p{
+    width: 270px;
+    font-size: 15px;
+}
+#firstrider2premdetails{
+    font-size: 13px;
+}
+#secondrider2premdetails{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    font-size: 13px;
+    margin: 0px 0px 0px 20px;
+    padding: 5px 0px 0px 9px;
+    background-color: rgb(255,44,0);
+    color: white;
+    border-radius: 10px;
+}
+
+#rider3{
+    width: 100%;
+    height: auto;
+    border: 2px solid rgb(188, 188, 188);
+    border-radius: 8px;
+    margin: 20px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#rider3>button{
+    width: 70px;
+    height: 40px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(57,136,195);
+    border-color: rgb(57,136,195);
+    cursor: pointer;
+}
+#rider3details>h4{
+    color: rgb(57,136,195);
+}
+#rider3details>p{
+    width: 350px;
+    font-size: 15px;
+}
+
+/* For Second Block (Summary) */
+#summary{
+    width: 64vh;
+    height: 80vh;
+    /* border: 2px solid black; */
+    margin: 20px 0px 0px 20px;
+    border-radius: 10px;
+}
+#summary>h4{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0,102,178);
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding: 17px 0px 0px 20px;
+    font-size: 18px;
+}
+#Basepremium{
+    margin: 25px 0px 0px 10px;
+}
+#Basepremium1stpart{
+    margin: 0px 220px 0px 0px;
+}
+#Basepremium2ndpart{
+    font-weight: bold;
+}
+
+
+#riderselection>h4{
+    padding: 30px 0px 0px 10px;
+}
+#riderselectionparts{
+    width: 98%;
+    height: 40px;
+    background-color: rgb(225,255,241);
+    margin: 5px 0px 0px 5px;
+    border: 2px dotted rgb(55,174,118);
+    display: flex;
+    align-items: center;
+  
+}
+#riderselection1stpart{
+    margin: 0px 180px 0px 8px;
+}
+#riderselection2ndpart{
+    color: rgb(253,76,15);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+#addonsselection>h4{
+    padding: 30px 0px 0px 10px;
+}
+#addonsselectionparts{
+    width: 98%;
+    height: 40px;
+    background-color: rgb(225,255,241);
+    margin: 5px 0px 0px 5px;
+    border: 2px dotted rgb(55,174,118);
+    display: flex;
+    align-items: center;
+  
+}
+#addonsselection1stpart{
+    margin: 0px 180px 0px 8px;
+}
+#addonsselection2ndpart{
+    color: rgb(253,76,15);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+#warningmsg{
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+#warningmsg>img{
+    width: 25px;
+    height: 25px;
+    margin: 0px 10px 0px 0px;
+}
+#warningmsg>h5{
+    width: 350px;
+    /* border: 2px solid black; */
+}
+
+#totalpremselection{
+    margin: 30px 0px 0px 0px;
+}
+#totalpremselectionparts{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(219,233,255);
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+  
+}
+#totalpremselection1stpart{
+    margin: 0px 250px 0px 8px;
+    color: rgb(35,97,143);
+    font-weight: bold;
+}
+#totalpremselection2ndpart{
+    color: rgb(35,97,143);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+#benefitselectionparts{
+    width: 98%;
+    height: 40px;
+    background-color: rgb(225,255,241);
+    margin: 50px 0px 0px 5px;
+    border: 2px dotted rgb(55,174,118);
+    display: flex;
+    align-items: center;
+  
+}
+#benefitselection1stpart{
+    margin: 0px 180px 0px 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#benefitselection2ndpart{
+    color: rgb(253,76,15);
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#proposalbtn>a>button{
+    width: 98%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(250,166,26);
+    font-size: 16px;
+    font-weight: bold;
+    margin: 25px 0px 0px 5px;
+    cursor: pointer;
+}
